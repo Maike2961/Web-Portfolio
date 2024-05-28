@@ -14,5 +14,5 @@ Seja bem-vindo ao meu portfolio, aqui estão alguns projetos pessoais.
 
 ### Visualização 
 
-Clique no link disponível - (https://portfolio-upsite.netlify.app/)
+Clique no link disponível - (https://portfolio-upsite.netlify.app/)<br>
 Mais informações da minha conta GitHub - (https://github.com/Maike2961/Maike_Costa)
