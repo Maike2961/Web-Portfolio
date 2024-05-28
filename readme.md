@@ -1,8 +1,8 @@
-# Meu Potfolio Pessoal 🌟👋
+# Meu Portfolio Pessoal 🌟👋
 
 ## Descrição 💬
 
-Seja bem-vindo ao meu portfolio, aqui estão alguns projetos pessoais.
+Seja bem-vindo ao meu portfolio, aqui presentes no meu link do portfolio alguns de meus projetos e sobre mim.
 
 ## Tecnologias 🚀🚀
 
