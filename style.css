@@ -367,7 +367,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--smd-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text {
