@@ -98,8 +98,11 @@ span {
 }
 
 .home-img img {
-    width: 25vw;
+    width: 20vw;
+    border-radius: 20%;
+    height: 20vw;
     margin-left: 20px;
+    border: 1px solid white;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -183,7 +186,10 @@ span {
 }
 
 .about-img img {
-    width: 35vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 20%;
+    border: 1px solid white;
 }
 
 .heading {
