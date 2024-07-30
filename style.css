@@ -63,6 +63,7 @@ span {
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 700;
+    transition: 200ms ease;
 }
 
 .navbar a:hover,
@@ -276,7 +277,8 @@ article{
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
     align-items: center;
     gap: 2.5rem;
 }
@@ -289,15 +291,23 @@ article{
     display: flex;
 }
 
-.portfolio-box img {
+/* .portfolio-box img {
     width: 100%;
     height: 25rem;
     transition: .5s ease;
     opacity: 0.7;
 }
-
-.portfolio-box:hover img {
+*/
+.portfolio-box:hover video {
     transform: scale(1.1);
+}
+
+.portfolio-box video{
+    width: 100%;
+    padding: 2rem;
+    height: 80%;
+    transition: .5s ease;
+    opacity: 0.7;
 }
 
 .portfolio-box .portfolio-layer {

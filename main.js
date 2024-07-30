@@ -33,7 +33,6 @@ header.classList.toggle('sticky', window.scollY > 100);
 menuIcon.classList.remove('fa-x')
 navbar.classList.remove('active')
 
-
 ScrollReveal({
     distance: '80px',
     duration: 2000,
