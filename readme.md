@@ -19,11 +19,11 @@
   <img align="center" alt="CSS" height="50" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Python" height="50" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
    <img align="center" alt="Flask" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg">
-  <img align="center" alt="Flask" height="50" width="40" src=https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg">
-  <img align="center" alt="Flask" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg">
-  <img align="center" alt="Flask" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-plain.svg">
-  <img align="center" alt="Flask" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg">
-  <img align="center" alt="Flask" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/angular/angular-original.svg">
+  <img align="center" alt="Docker" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original.svg">
+  <img align="center" alt="Flutter" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg">
+  <img align="center" alt="Git" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-plain.svg">
+  <img align="center" alt="Django" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg">
+  <img align="center" alt="Angular" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/angular/angular-original.svg">
   <img align="right" height="120" width="180" src="https://i2.wp.com/allhtaccess.info/wp-content/uploads/2018/03/programming.gif?fit=1281%2C716&ssl=1" />
    
 </div>
