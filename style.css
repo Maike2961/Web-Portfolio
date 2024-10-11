@@ -228,13 +228,12 @@ span {
 .services-container {
     display: flex;
     justify-content: center;
-   /*  align-items: center; */
     flex-wrap: wrap;
     gap: 2rem;
 }
 
 .services-container .services-box {
-    max-width: 50rem;
+    width: 40rem;
     background: var(--smd-bg-color);
     padding: 3rem 2rem 2rem;
     border-radius: 2rem;
@@ -255,26 +254,17 @@ span {
 
 
 .services-box p {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
-.linguas span{
-    font-size: 2rem;
+.services-container .services-box .linguas{
+    display: grid;
+    margin-top: 2rem;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
 }
 
-
-.linguas{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-article{
-    display: flex;
-    padding: 2rem;
-    flex-direction: column;
-}
 
 .portfolio {
     background: var(--smd-bg-color);
@@ -364,46 +354,6 @@ article{
     color: var(--smd-bg-color);
 }
 
-.contact h2 {
-    margin-top: 3rem;
-}
-
-.contact form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.contact form .input-box {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box input,
-.contact form textarea {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--smd-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-}
-
-.contact form .input-box input {
-    width: 40%;
-}
-
-.contact form textarea {
-    resize: none;
-}
-
-.contact form .btn {
-    margin-top: 2rem;
-    cursor: pointer;
-}
 
 .footer {
     display: flex;
@@ -445,7 +395,7 @@ article{
 
 @media(max-width: 991px) {
     .header {
-        padding: 2rem 1%;
+        padding: 2rem 4rem;
     }
 
     section {
@@ -458,10 +408,6 @@ article{
 
     .portfolio {
         padding-bottom: 7rem;
-    }
-
-    .contact {
-        min-height: auto;
     }
 
     .footer {
@@ -479,7 +425,7 @@ article{
         top: 100%;
         left: 0;
         width: 100%;
-        padding: 1rem 1%;
+        padding: 1rem 2rem;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0 .5rem 1rem solid rgba(0, 0, 0, .2);
@@ -513,8 +459,8 @@ article{
     }
 
     .home-img img {
-        width: 90vw;
-        height: 50vw;
+        width: 40vw;
+        height: 30vh;
         margin-top: 4rem;
     }
 
@@ -523,8 +469,8 @@ article{
     }
 
     .about-img img {
-        width: 90vw;
-        height: 50vw;
+        width: 40vw;
+        height: 30vh;
         margin-top: 4rem;
     }
 
@@ -552,22 +498,24 @@ article{
     }
 
     .home-img img {
-        width: 80vw;
+        width: 50vw;
+        height: 30vh;
         margin-top: 8rem;
     }
 
     .about-img img {
-        width: 80vw;
+        width: 50vw;
+        height: 30vh;
         margin-top: 4rem;
     }
 }
 
 @media(max-width: 450px){
     html{
-        font-size: 50%;
+        font-size: 40%;
     }
 
-    .contact form .input-box input{
-        width: 100%;
+    .home-content h3 .text-typed{
+        font-size: 85%;
     }
 }
