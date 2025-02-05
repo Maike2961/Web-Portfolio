@@ -1,8 +1,8 @@
 
 
-<h1>Olá! 👋, Eu sou Mayki e esse é meu portfolio Pessoal</h1>
+<h1>Hello! 👋, I'm name is Mayki Pereira</h1>
 
- ## ⭐ Informações sobre minha conta GitHub
+ ## ⭐ About My Github
 
 <br>
 
@@ -12,7 +12,7 @@
     <img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=Maike2961&show_icons=true&locale=en&theme=highcontrast" alt="Maike2961" />
 </div>
     
-## 🚀 Minhas Skills
+## 🚀 My Skills
 
 <div style="display: inline_block"><br>
  <img align="center" alt="Angular" height="50" width="40" src="https://github.com/devicons/devicon/blob/master/icons/angular/angular-original.svg">
@@ -34,7 +34,7 @@
 </div>
 
 <br><br>
-## 💬 Rede Sociais!
+## 💬 Social Midia!
 
 <div> 
   <a href="https://instagram.com/mayki_costa_silva" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
@@ -42,6 +42,6 @@
   <a href="https://www.twitch.tv/arexmorg" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
 </div>
 
-### Visualização 🔖
+### 🔖 My Personal Porfolio
 
-Clique no link disponível - (https://portfolio-upsite.netlify.app/)<br>
+Click here - (https://portfolio-upsite.netlify.app/)<br>
