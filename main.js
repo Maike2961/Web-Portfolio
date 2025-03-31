@@ -46,7 +46,7 @@ ScrollReveal().reveal('.home-contact p, .about-content', {origin: 'right'})
 
 
 const typed = new Typed('.text-typed', {
-    strings: ['Assistente de Desenvolvimento de Software'],
+    strings: ['Desenvolvedor Fullstack'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
