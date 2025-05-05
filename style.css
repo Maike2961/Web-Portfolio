@@ -265,6 +265,10 @@ span {
     gap: 3rem;
 }
 
+.linguas .icons{
+    max-height: 5rem;
+}
+
 
 .portfolio {
     background: var(--smd-bg-color);
