@@ -292,7 +292,7 @@ span {
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
-    max-height: 25rem;
+    max-height: 30rem;
 }
 
 /* .portfolio-box img {
@@ -309,7 +309,6 @@ span {
 .portfolio-box video{
     width: 100%;
     padding: 2rem;
-    height: 80%;
     transition: .5s ease;
     opacity: 0.7;
 }
