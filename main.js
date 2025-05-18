@@ -86,12 +86,61 @@ const Animations = {
     },
 };
 
+const backgroundClick = {
+    img: document.querySelector(".btn-change"),
+    body: document.body,
+
+    click: function(){
+        const imgvalue = this.img.querySelector('img');
+
+        this.img.addEventListener('click', (event)=>{
+            event.preventDefault();
+
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            console.log(currentTheme)
+            if(currentTheme === "light"){
+                imgvalue.src = 'assests/icons/moon.svg'
+                this.change("dark")
+            }else{
+                imgvalue.src = 'assests/icons/sun.svg'
+                this.change("light")
+            }
+        });
+    },
+
+    change: function(mode){
+        document.documentElement.setAttribute('data-theme', mode);
+        localStorage.setItem('theme', mode)
+    },
+
+    load: function(){
+        const saved = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', saved);
+
+        const imgvalue = this.img.querySelector('img');
+
+        if(saved === 'dark'){
+            imgvalue.src = 'assests/icons/moon.svg'
+            
+        }else{
+            imgvalue.src = 'assests/icons/sun.svg';
+        }
+
+    },
+
+    init: function(){
+        this.load();
+        this.click();
+    }
+}
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
     Navigation.init();
     Scroll.init();
     Animations.init();
+    backgroundClick.init();
 })
 
 
