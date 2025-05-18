@@ -19,6 +19,20 @@
     --main-color: #59B2F4;
 }
 
+[data-theme="dark"]{
+    --bg-color: #232425;
+    --smd-bg-color: #3d3d41;
+    --text-color: #fff;
+    --border-color: #f5f5f5;
+}
+
+[data-theme="light"]{
+    --bg-color: #f5f5f5;
+    --smd-bg-color: #e0e0e0;
+    --text-color: #1a1a1a;
+    --border-color: #232425;
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -109,10 +123,12 @@ span {
 
 .home-img img {
     width: 20vw;
-    border-radius: 20%;
+    border-radius: 50%;
     height: 20vw;
     margin-left: 20px;
-    border: 1px solid white;
+    border: 1px solid var(--border-color);
+    background-position: center;
+    background-size: cover;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -199,7 +215,7 @@ span {
     width: 30vw;
     height: 30vw;
     border-radius: 20%;
-    border: 1px solid white;
+    border: 1px solid var(--border-color);
 }
 
 .heading {
@@ -527,3 +543,25 @@ span {
         font-size: 85%;
     }
 }
+
+.btn-change{
+    position: fixed;
+    margin-right: auto;
+    bottom: 1rem;
+    left: 1.5rem;
+    z-index: 99;
+    background-color: var(--border-color);
+    padding: 1rem;
+    border-radius: 80%;
+}
+
+.btn-change img{
+    max-width: 5rem;
+    height: 3.5rem;
+    transition: transform 0.8s;
+}
+
+.btn-change img:hover{
+    transform: scale(1.1);
+}
+
